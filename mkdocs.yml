@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Grihsvachalnam
+site_url: https://localhost:8000
+
+nav:
+  - Home: index.md
+  - About: about.md
+  
+theme: readthedocs

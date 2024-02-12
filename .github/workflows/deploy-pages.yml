@@ -29,5 +29,5 @@ jobs:
           git config --global http.sslverify false
           git commit -m "Deploy"
           git branch -M main
-          git push -f https://narayan-pradhan:${{ secrets.PAT }}\
+          git push -f https://Amaya2024:${{ secrets.PAT }}\
           @github.com/Amaya2024/grihasvachalnam.git main:gh-pages

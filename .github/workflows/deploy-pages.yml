@@ -1,4 +1,5 @@
-# This workflow is to build the documentation for Grihsvachalnam and published documentation
+# This workflow is to build the documentation 
+# for Grihsvachalnam and published documentation
 
 name: project site
 
@@ -27,4 +28,5 @@ jobs:
           git config --global http.sslverify false
           git commit -m "Deploy"
           git branch -M main
-          git push -f https://narayan-pradhan:${{ secrets.PAT }}@github.com/NarayanPradhan-Dev/mkdocs-gha-learn.git main:gh-pages
+          git push -f https://narayan-pradhan:${{ secrets.PAT }}\
+          @github.com/NarayanPradhan-Dev/mkdocs-gha-learn.git main:gh-pages

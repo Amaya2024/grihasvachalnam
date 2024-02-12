@@ -30,4 +30,4 @@ jobs:
           git commit -m "Deploy"
           git branch -M main
           git push -f https://narayan-pradhan:${{ secrets.PAT }}\
-          @github.com/NarayanPradhan-Dev/mkdocs-gha-learn.git main:gh-pages
+          @github.com/Amaya2024/grihasvachalnam.git main:gh-pages
